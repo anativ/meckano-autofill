@@ -15,8 +15,8 @@
         if (date.getDay() >= 5) {
             continue;
         }
-        rows[i].querySelector('.checkIn input').value = '10:00'
-        rows[i].querySelector('.checkOut input').value = '19:00'
+        rows[i].querySelector('.checkIn input').value = '9:00'
+        rows[i].querySelector('.checkOut input').value = '18:00'
         } 
 
 })();
