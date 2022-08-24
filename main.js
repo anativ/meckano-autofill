@@ -11,7 +11,7 @@
         // skip FRI / SAT
         const dateStr = rows[i].querySelector('.dateText').innerText
         const dateArr = dateStr.split(' ')[0].split('/')
-        const date = new Date(dateArr[2], parseInt(dateArr[1]) - 1, dateArr[2])
+        const date = new Date(dateArr[2], parseInt(dateArr[1]) - 1, dateArr[0])
         if (date.getDay() >= 5) {
             continue;
         }
